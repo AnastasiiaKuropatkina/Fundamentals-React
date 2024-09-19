@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Clicker from "./Clicker";
 import Timer from "./Timer";
+import "./App.css";
 
 function App() {
   const [isClicker, setClicker] = useState(false);

@@ -1,15 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 
-function setDefaultValue() {
-  //componentDidMount()
-  const userCount = localStorage.getItem("count");
-  return userCount ? +userCount : 0;
-}
-/*componentDidMount() {
-    const userCount = localStorage.getItem("count");
-    if (userCount) this.setState({ count: +userCount });
-  }*/
-
 export default function Timer() {
   const [count, setCount] = useState(0);
   const [isCounting, setIsCount] = useState(false);
@@ -29,7 +19,6 @@ export default function Timer() {
   };
 
   useEffect(() => { //useEffect записивает значение в localStorage
-    //componentDidUpdate()
     console.log("update");
     localStorage.setItem("count", count);
   }, [count]);
@@ -48,19 +37,6 @@ export default function Timer() {
 
     };
   }, [isCounting]);
-
-  /*componentDidMount() {
-    const userCount = localStorage.getItem("count");
-    if (userCount) this.setState({ count: +userCount });
-  }
-  componentDidUpdate() {
-    localStorage.setItem("count", this.state.count);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.counterId);
-    this.handleStop();
-  }*/
 
   return (
     <div className="timer">
