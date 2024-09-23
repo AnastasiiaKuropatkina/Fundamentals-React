@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
+import somePlugin from 'plugin';
 
 export const Effect = () => {
   //what effect does
   useEffect(() => {
     document.addEventListener("click", handler);
     return () => {
-      document.remove.addEventListener("click", handler);
+      document.removeEventListener("click", handler);
     };
   }, []);
 

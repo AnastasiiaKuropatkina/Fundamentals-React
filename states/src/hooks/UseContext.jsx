@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-
+// useReducer, useContext - для пробрасивание данных вниз по дереву компонентов
 export const CustomContext = createContext();
 
 export const Context = (props) => {
