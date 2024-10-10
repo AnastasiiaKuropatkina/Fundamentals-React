@@ -11,6 +11,25 @@
 - Section 10: Routing and SPA application
 - Section 11: Summary
 
+## Що нового в React 18
+** Автоматичні покращення **
+
+- Батчинг для асинхронних викликів
+- Оновленний  Strict.Mode
+- Оновлений Suspense, і його застосування на стороні серверу
+
+** Конкурентний режим **
+- Оновлення Concurrent Mode
+- Новий API
+  - useTransition
+  - startTransition
+  - useDeferredValue
+
+** Хуки для створення бібліотек **
+- useSyncExternalStore
+- useInsertionEffect
+- useId - для генерації унікальних ідентифікаторів, є аналоги в Resux Toolkit
+
 ## Hot Key
 
 - `^ + '` - термінал
