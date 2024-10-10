@@ -10,6 +10,7 @@
 - Section 9: Advanced application state management
 - Section 10: Routing and SPA application
 - Section 11: Summary
+
 ## Hot Key
 
 - `^ + '` - термінал
@@ -20,7 +21,33 @@
 - `! + tab` - <document>
 - `#root` - <div id="root"></div>
 
-## React -Links
+## React video
+[Конкурентный режим в React 18](https://www.youtube.com/watch?v=QfIwLDy8j_U)
+
+[Особенности работы со стилями в React](https://www.youtube.com/watch?v=oYnyQ47BUSo)
+
+[Библиотека компонентов Material UI](https://www.youtube.com/watch?v=OZ_FUaV_xbg)
+
+[Библиотека компонентов Charka UI](https://www.youtube.com/watch?v=-CdrHAImYfk)
+
+[Библиотека компонентов Ant.Design](https://www.youtube.com/watch?v=LfKgQ5mAcRs)
+
+[Разделение логики и представления в React-приложении](https://www.youtube.com/watch?v=KWT8OKzrMZ4)
+
+[Валидация форм с react-hook-form](https://www.youtube.com/watch?v=Jxfun6Jnt5Q)
+
+[Тестирование React-приложения](https://www.youtube.com/watch?v=sjdMBJ72M4s)
+
+[Обработка ошибок в React-приложении](https://www.youtube.com/watch?v=gyqAW0--0Tc)
+
+[Цвет SVG в React-приложении](https://www.youtube.com/watch?v=b4btk12Evgw)
+
+[Библиотека анимаций Framer Motion](https://www.youtube.com/watch?v=_94vYQtaz1Y)
+
+## Redux course
+[Redux для управления состоянием React-приложений](https://www.udemy.com/course/redux-react/?referralCode=ECBD650C4480172320D3)
+
+## React links
 
 [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS](https://www.youtube.com/watch?v=z3GS5oYGq5U&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=5)
 
